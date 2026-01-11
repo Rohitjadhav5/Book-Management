@@ -484,7 +484,7 @@ class BDisplayName extends JDialog implements ActionListener
         }
     }
 }
-public class JFrm15 extends JFrame
+public class JFrm extends JFrame
 {
     
     BAdd ba;
@@ -494,7 +494,7 @@ public class JFrm15 extends JFrame
     BDisplayName bdispNm;
     LinkedList<Book>ls;
     JTree tree;
-    JFrm15()
+    JFrm()
     {
         super("Book");
         DefaultMutableTreeNode top= new DefaultMutableTreeNode("BOOK");
@@ -589,6 +589,7 @@ public class JFrm15 extends JFrame
     }
     public static void main(String [] args)
     {
-        JFrm15 a=new JFrm15();
+        JFrm a=new JFrm();
     }
+
 }
